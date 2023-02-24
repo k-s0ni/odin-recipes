@@ -1,2 +1,2 @@
-## Odin Recipes
+## ODIN RECIPES
 My first project in Odin! 
