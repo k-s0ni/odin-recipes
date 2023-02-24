@@ -2,7 +2,7 @@
     text-align: center;
     color: rgb(50, 185, 215);
     font-family: 'Courier New', Courier, monospace;
-    font-size: 48px;
+    font-size: 58px;
 }
 
 .left {
@@ -66,15 +66,16 @@ ul li::before {
     margin-right: 100px;
 }
 
-.body {
+body {
     background-color: black;
     color: white;
-    font-size: larger;
+    font-size: x-large;
 }
 
-a{
+a {
     font-weight: bold;
 }
+
 a:link {
     color: green;
     background-color: transparent;
