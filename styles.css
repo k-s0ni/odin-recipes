@@ -1,5 +1,61 @@
 .heading {
     text-align: center;
     color: white;
-    font-size: 42px;
+    font-family: 'Times New Roman';
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.left {
+    float: left;
+    margin-top: -90px;
+}
+
+.right {
+    float: right;
+    margin-top: -90px;
+}
+
+.list {
+    font-size: larger;
+    margin-left: 550px;
+}
+
+ul {
+    list-style: none
+}
+
+ul li::before {
+    content: "\2022";
+    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: white;
+}
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.rotate270 {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.img {
+    float: right;
+    height: 350px;
+    width: auto;
+    margin-right: 100px;
+}
+
+.body {
+    background-color: black;
+    color: white;
+    font-size: larger;
 }
