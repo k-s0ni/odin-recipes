@@ -1,2 +1,2 @@
-# odin-recipes
-A simple recipie website using HTML. 
+## Odin Recipes
+My first project in Odin! 
