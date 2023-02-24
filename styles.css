@@ -1,45 +1,54 @@
-.heading {
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1 {
     text-align: center;
     color: rgb(50, 185, 215);
-    font-family: 'Courier New', Courier, monospace;
     font-size: 58px;
 }
 
 .left {
     float: left;
-    margin-top: -90px;
+    margin-top: -100px;
+    margin-left: -100px;
 }
- 
+
 .right {
     float: right;
-    margin-top: -90px;
+    margin-top: -100px;
+    margin-right: -100px;
 }
 
 .list {
     font-size: larger;
     font-family: 'Courier New', Courier, monospace;
-    margin-left: 550px;
-}
-
-ul {
-    list-style: none;
+    margin-left: 400px;
 }
 
 h2 {
     color: rgb(243, 119, 17);
-    font-family: 'Courier New', Courier, monospace;
 }
 
-.ul_style {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 600;
+ul {
+    list-style: none;
+    margin-left: 70px;
+    font-weight: bold;
+}
+
+ol {
+    margin-left: 100px;
+    font-weight: bold;
 }
 
 ul li::before {
     content: "\2022";
     /* Add content: \2022 is the CSS Code/unicode for a bullet */
     color: white;
-    margin-left: -30px;
+    margin-left: -10px;
     padding: 0.5%;
 }
 
