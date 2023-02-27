@@ -1,104 +1,82 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: x-large;
-    margin-left: 200px;
-    margin-right: 200px;
-    background-color: black;
-    color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 22px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: black;
+  color: white;
 }
 
 h1 {
-    text-align: center;
-    color: rgb(50, 185, 215);
-    font-size: 58px;
-}
-
-.left {
-    margin-top: -100px;
-}
-
-.right {
-    margin-top: -100px;
-}
-
-.list {
-    font-size: larger;
-    font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  color: rgb(50, 185, 215);
+  font-size: 58px;
 }
 
 h2 {
-    color: rgb(243, 119, 17);
+  color: rgb(243, 119, 17);
 }
 
 ul {
-    list-style: none;
-    font-weight: bold;
+  list-style: none;
+  padding-left: 20px;
 }
 
-.list_align {
-    margin-left: 70px;
-}
-
+.list_align,
 ol {
-    margin-left: 100px;
-    font-weight: bold;
+  margin-left: 5%;
 }
 
 ul li::before {
-    content: "\2022";
-    /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: white;
-    margin-left: -10px;
-    padding: 0.5%;
+  content: "\2022";
+  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: white;
 }
 
 .rotate90 {
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 .rotate270 {
-    -webkit-transform: rotate(270deg);
-    -moz-transform: rotate(270deg);
-    -o-transform: rotate(270deg);
-    -ms-transform: rotate(270deg);
-    transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
 }
 
 .img {
-    float: right;
-    height: 300px;
-    width: auto;
-    margin-right: 100px;
-}
-
-a {
-    font-weight: bold;
+  float: right;
+  height: 300px;
+  width: auto;
+  margin-right: 100px;
 }
 
 a:link {
-    color: green;
-    background-color: transparent;
-    text-decoration: none;
+  font-weight: bold;
+  color: rgb(255, 247, 0);
+  background-color: transparent;
+  text-decoration: none;
 }
 
 a:visited {
-    color: rgb(228, 72, 98);
-    background-color: transparent;
-    text-decoration: none;
+  color: rgb(255, 174, 188);
+  background-color: transparent;
+  text-decoration: none;
 }
 
 a:hover {
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
+  color: rgb(255, 122, 122);
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 a:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
 }
